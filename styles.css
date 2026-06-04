@@ -655,7 +655,7 @@ body:hover .cursor-glow{opacity:1}
     min-height: 60vh;
     display: flex;
     align-items: center;
-    background: var(--navy);
+    background: var(--gray-100);
     overflow: hidden;
     padding: 120px 0 60px;
 }
@@ -663,8 +663,8 @@ body:hover .cursor-glow{opacity:1}
     position: absolute;
     inset: 0;
     background: url('images/hero_premium.png') no-repeat center/cover;
-    opacity: 0.15;
-    mix-blend-mode: overlay;
+    opacity: 0.05;
+    mix-blend-mode: multiply;
     z-index: 1;
 }
 .page-hero .container {
@@ -678,7 +678,7 @@ body:hover .cursor-glow{opacity:1}
 .page-title {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 800;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 20px;
     line-height: 1.1;
     letter-spacing: 1px;
@@ -686,12 +686,12 @@ body:hover .cursor-glow{opacity:1}
 }
 .page-subtitle {
     font-size: clamp(1rem, 2vw, 1.2rem);
-    color: var(--gray-300);
+    color: var(--gray-600);
     line-height: 1.6;
 }
 .product-detail-page {
-    background: var(--navy-800);
-    color: var(--white);
+    background: var(--gray-50);
+    color: var(--dark);
     position: relative;
 }
 .glass-table {
@@ -705,10 +705,10 @@ body:hover .cursor-glow{opacity:1}
 }
 .glass-table td, .glass-table th {
     padding: 20px 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 .glass-table tbody tr:hover {
-    background: rgba(255,255,255,0.03);
+    background: rgba(0,0,0,0.03);
 }
 .gradient-text-gold {
     background: linear-gradient(90deg, #f9d423 0%, #ff4e50 100%);
