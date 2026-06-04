@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+
+<section class="post-detail" style="padding: 120px 0; background: var(--gray-50);">
+    <div class="container" style="max-width: 800px;">
+        <span class="section-tag">{{ tag }}</span>
+        <h1 style="font-family: var(--f-heading); font-size: 2.5rem; color: var(--navy); margin: 20px 0;">{{ title }}</h1>
+        <div style="color: var(--gray-400); margin-bottom: 40px;">
+            <i class="far fa-calendar-alt"></i> Đăng ngày: {{ date }}
+        </div>
+        
+        <div class="post-content" style="line-height: 1.8; color: var(--gray-600); font-size: 1.1rem;">
+            {% if image %}
+            <img src="{{ image }}" alt="{{ title }}" style="width: 100%; border-radius: 12px; margin-bottom: 40px;">
+            {% endif %}
+            
+            {{ content | safe }}
+        </div>
+    </div>
+</section>
