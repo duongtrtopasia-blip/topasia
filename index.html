@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Asia | Nhà Sản Xuất Polycarbonate #1 Việt Nam</title>
+    <meta name="description" content="Top Asia sản xuất, phân phối tấm nhựa Polycarbonate cường lực, mái lấy sáng chống UV chuẩn ISO. Báo giá trực tiếp từ nhà máy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema Markup (Organization & WebSite) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://topasia.vn/#organization",
+          "name": "Top Asia Vietnam",
+          "url": "https://topasia.vn",
+          "logo": "https://topasia.vn/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "0896-699-996",
+            "contactType": "customer service",
+            "areaServed": "VN",
+            "availableLanguage": "Vietnamese"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://topasia.vn/#website",
+          "url": "https://topasia.vn",
+          "name": "Top Asia | Nhà Sản Xuất Polycarbonate #1 Việt Nam"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <img src="images/logo.png" alt="Top Asia Logo">
+            </div>
+            <div class="preloader-bar"><div class="preloader-fill"></div></div>
+            <p class="preloader-text">Đang tải...</p>
+        </div>
+    </div>
+
+    <!-- Noise Texture Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar" id="topBar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span class="top-bar-item"><i class="fas fa-phone-alt"></i> <a href="tel:0896699996">0896 699 996</a></span>
+                <span class="top-bar-divider"></span>
+                <span class="top-bar-item"><i class="fas fa-envelope"></i> <a href="mailto:topasiaplastic@gmail.com">topasiaplastic@gmail.com</a></span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo" id="logo">
+                <img src="images/logo.png" alt="Top Asia Logo" class="logo-img">
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Trang Chủ</a></li>
+                    <li><a href="about.html" class="nav-link">Giới thiệu</a></li>
+                    <li class="has-dropdown">
+                        <a href="products.html" class="nav-link">Sản phẩm <i class="fas fa-chevron-down"></i></a>
+                        <div class="mega-dropdown">
+                            <div class="mega-col">
+                                <h4><i class="fas fa-gem"></i> Polycarbonate Cường Lực</h4>
+                                <a href="product-asia-lite.html">Asia Lite – LUXURY</a>
+                                <a href="product-asia-pearl.html">Asia Pearl – DELUXE</a>
+                                <a href="product-asia-gold.html">Asia Gold – Phổ thông</a>
+                            </div>
+                            <div class="mega-col">
+                                <h4><i class="fas fa-tools"></i> Phụ kiện & Mái che</h4>
+                                <a href="product-dac-san.html">Polycarbonate Đặc Sần</a>
+                                <a href="product-phu-kien.html">Phụ kiện thi công</a>
+                                <a href="product-canopy.html">Mái che Canopy</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="projects.html" class="nav-link">Dự án</a></li>
+                    <li><a href="news.html" class="nav-link">Tin tức</a></li>
+                    <li><a href="contact.html" class="nav-link">Liên hệ</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <a href="tel:0896699996" class="header-cta">
+                    <span class="cta-pulse"></span>
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="cta-text">Báo giá ngay</span>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <canvas class="hero-particles" id="heroParticles"></canvas>
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg active" style="background-image:url('images/hero_premium.png')"></div>
+            <div class="hero-bg" style="background-image:url('images/about_factory.png')"></div>
+            <div class="hero-bg" style="background-image:url('images/product_showcase.png')"></div>
+        </div>
+        <div class="hero-gradient"></div>
+        <div class="hero-grid-pattern"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content" id="heroContent">
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    <span>Nhà sản xuất hàng đầu Việt Nam</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Tấm nhựa kính</span>
+                    <span class="title-line title-highlight">
+                        <span class="gradient-text">Polycarbonate</span>
+                    </span>
+                    <span class="title-line">Cường lực chính hãng</span>
+                </h1>
+                <p class="hero-desc">Công nghệ sản xuất chuẩn Châu Âu · Phủ Nano chống UV · Bảo hành 10 năm</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn-glow">
+                        <span>Khám phá sản phẩm</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn-ghost">
+                        <span class="btn-ghost-circle"><i class="fas fa-play"></i></span>
+                        <span>Về chúng tôi</span>
+                    </a>
+                </div>
+                <div class="hero-stats-row">
+                    <div class="hero-stat">
+                        <strong>10+</strong><span>Năm kinh nghiệm</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <strong>5,000+</strong><span>Tấn/năm</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <strong>63+</strong><span>Tỉnh thành</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slider-nav">
+                <button class="slider-dot active" data-slide="0"><span></span></button>
+                <button class="slider-dot" data-slide="1"><span></span></button>
+                <button class="slider-dot" data-slide="2"><span></span></button>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>★ ISO 9001:2015</span>
+                <span>★ Bảo hành 10 năm</span>
+                <span>★ Xuất khẩu 5 quốc gia</span>
+                <span>★ 5.000+ tấn/năm</span>
+                <span>★ 63+ tỉnh thành</span>
+                <span>★ Công nghệ Châu Âu</span>
+                <span>★ Phủ Nano chống UV</span>
+                <span>★ ISO 9001:2015</span>
+                <span>★ Bảo hành 10 năm</span>
+                <span>★ Xuất khẩu 5 quốc gia</span>
+                <span>★ 5.000+ tấn/năm</span>
+                <span>★ 63+ tỉnh thành</span>
+                <span>★ Công nghệ Châu Âu</span>
+                <span>★ Phủ Nano chống UV</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-visual reveal-left">
+                    <div class="about-image-stack">
+                        <div class="about-img-main">
+                            <img src="images/about_factory.png" alt="Nhà máy Top Asia" loading="lazy">
+                            <div class="img-float-badge">
+                                <div class="float-badge-inner">
+                                    <span class="fb-number">2014</span>
+                                    <span class="fb-text">Năm thành lập</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-img-secondary">
+                            <img src="images/product_showcase.png" alt="Sản phẩm Top Asia" loading="lazy">
+                        </div>
+                        <div class="about-decoration">
+                            <div class="deco-grid"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content reveal-right">
+                    <span class="section-tag"><i class="fas fa-info-circle"></i> VỀ CHÚNG TÔI</span>
+                    <h2 class="section-heading">Xây dựng thương hiệu Việt,<br><span class="gradient-text">vươn tầm quốc tế</span></h2>
+                    <p class="about-desc">Sứ mệnh của Top Asia: Tạo ra những sản phẩm chất lượng cao phục vụ người Việt và vươn ra thị trường quốc tế với niềm tự hào dân tộc.</p>
+
+                    <div class="about-features">
+                        <div class="af-card">
+                            <div class="af-icon"><i class="fas fa-users-cog"></i></div>
+                            <div>
+                                <h4>Đội ngũ chuyên nghiệp</h4>
+                                <p>Nhân sự trẻ, năng động, sáng tạo không ngừng đổi mới</p>
+                            </div>
+                        </div>
+                        <div class="af-card">
+                            <div class="af-icon"><i class="fas fa-microchip"></i></div>
+                            <div>
+                                <h4>Công nghệ tiên tiến</h4>
+                                <p>Dây chuyền sản xuất chuẩn Châu Âu, năng suất 5.000 tấn/năm</p>
+                            </div>
+                        </div>
+                        <div class="af-card">
+                            <div class="af-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <div>
+                                <h4>Nhà máy KCN Hoàng Gia</h4>
+                                <p>Phủ Nano chống tia UV, độ dày đa dạng từ 2mm – 18mm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-center reveal-up">
+                <span class="section-tag"><i class="fas fa-cubes"></i> SẢN PHẨM</span>
+                <h2 class="section-heading">Sản phẩm <span class="gradient-text">nổi bật</span></h2>
+                <p class="section-sub">Nhựa kính cường lực Polycarbonate – Bền hơn kính 200 lần, trong suốt 98%</p>
+            </div>
+
+            <div class="product-showcase reveal-up">
+                <div class="showcase-hero-img">
+                    <img src="images/product_showcase.png" alt="Polycarbonate Showcase" loading="lazy">
+                    <div class="showcase-overlay">
+                        <div class="showcase-features">
+                            <div class="sf-item"><i class="fas fa-shield-alt"></i><span>Bền hơn kính <strong>200x</strong></span></div>
+                            <div class="sf-item"><i class="fas fa-eye"></i><span>Trong suốt <strong>98%</strong></span></div>
+                            <div class="sf-item"><i class="fas fa-palette"></i><span>Đa dạng <strong>màu sắc</strong></span></div>
+                            <div class="sf-item"><i class="fas fa-tools"></i><span>Thi công <strong>dễ dàng</strong></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Categories -->
+            <div class="product-categories">
+                <div class="pcat-card reveal-up" data-tilt>
+                    <div class="pcat-glow gold-glow"></div>
+                    <div class="pcat-header">
+                        <span class="pcat-badge gold">PHỔ THÔNG</span>
+                        <h3>ASIA GOLD</h3>
+                        <p>Dòng phổ thông, giá cả phải chăng</p>
+                    </div>
+                    <div class="pcat-image">
+                        <img src="images/products.png" alt="Asia Gold" loading="lazy">
+                    </div>
+                    <ul class="pcat-specs">
+                        <li>Độ dày: 2mm – 10mm</li>
+                        <li>Đa dạng màu sắc</li>
+                        <li>Phủ UV 1 mặt</li>
+                    </ul>
+                    <a href="#" class="pcat-link">Xem chi tiết <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="pcat-card featured reveal-up" data-tilt>
+                    <div class="pcat-glow blue-glow"></div>
+                    <div class="pcat-popular">★ PHỔ BIẾN NHẤT</div>
+                    <div class="pcat-header">
+                        <span class="pcat-badge premium">LUXURY</span>
+                        <h3>ASIA LITE</h3>
+                        <p>Dòng cao cấp, chất lượng vượt trội</p>
+                    </div>
+                    <div class="pcat-image">
+                        <img src="images/product_showcase.png" alt="Asia Lite" loading="lazy">
+                    </div>
+                    <ul class="pcat-specs">
+                        <li>Độ dày: 3mm – 18mm</li>
+                        <li>Phủ Nano UV 2 mặt</li>
+                        <li>Bảo hành 10 năm</li>
+                    </ul>
+                    <a href="#" class="pcat-link">Xem chi tiết <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="pcat-card reveal-up" data-tilt>
+                    <div class="pcat-glow teal-glow"></div>
+                    <div class="pcat-header">
+                        <span class="pcat-badge deluxe">DELUXE</span>
+                        <h3>ASIA PEARL</h3>
+                        <p>Dòng cao cấp DELUXE, siêu bền</p>
+                    </div>
+                    <div class="pcat-image">
+                        <img src="images/products.png" alt="Asia Pearl" loading="lazy">
+                    </div>
+                    <ul class="pcat-specs">
+                        <li>Độ dày: 3mm – 18mm</li>
+                        <li>Chống va đập cực tốt</li>
+                        <li>Dành cho công trình lớn</li>
+                    </ul>
+                    <a href="#" class="pcat-link">Xem chi tiết <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-center reveal-up">
+                <span class="section-tag light"><i class="fas fa-award"></i> TẠI SAO CHỌN CHÚNG TÔI</span>
+                <h2 class="section-heading light">Cam kết chất lượng<br><span class="gradient-text-gold">tiêu chuẩn quốc tế</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal-up" style="--delay:0">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="why-ring"></div>
+                    </div>
+                    <h3>Bảo hành 10 năm</h3>
+                    <p>Cam kết đồng hành cùng mọi công trình với chế độ bảo hành rõ ràng</p>
+                    <div class="why-number">01</div>
+                </div>
+                <div class="why-card reveal-up" style="--delay:1">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="why-ring"></div>
+                    </div>
+                    <h3>ISO 9001:2015</h3>
+                    <p>Quy trình quản lý chất lượng nghiêm ngặt theo tiêu chuẩn quốc tế</p>
+                    <div class="why-number">02</div>
+                </div>
+                <div class="why-card reveal-up" style="--delay:2">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon"><i class="fas fa-globe-asia"></i></div>
+                        <div class="why-ring"></div>
+                    </div>
+                    <h3>Xuất khẩu 5 quốc gia</h3>
+                    <p>Khẳng định vị thế trên bản đồ vật liệu xây dựng thế giới</p>
+                    <div class="why-number">03</div>
+                </div>
+                <div class="why-card reveal-up" style="--delay:3">
+                    <div class="why-icon-wrap">
+                        <div class="why-icon"><i class="fas fa-building"></i></div>
+                        <div class="why-ring"></div>
+                    </div>
+                    <h3>Bộ Xây Dựng</h3>
+                    <p>Đáp ứng đầy đủ tiêu chuẩn kỹ thuật xây dựng Việt Nam</p>
+                    <div class="why-number">04</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-center reveal-up">
+                <span class="section-tag"><i class="fas fa-project-diagram"></i> DỰ ÁN</span>
+                <h2 class="section-heading">Dự án <span class="gradient-text">tiêu biểu</span></h2>
+                <p class="section-sub">Những công trình đã tin tưởng sử dụng sản phẩm Top Asia</p>
+            </div>
+            <div class="projects-masonry reveal-up">
+                <div class="pj-card pj-wide">
+                    <img src="images/project_vinhome.png" alt="Bể bơi Vinhome" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Khu dân cư</span>
+                        <h3>Bể bơi Vinhome</h3>
+                        <p>Lắp đặt tấm Polycarbonate mái che khu bể bơi</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/project_tower.png" alt="Startup Tower" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Tòa nhà</span>
+                        <h3>Startup Tower Hà Nội</h3>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/project_hospital.png" alt="Bệnh viện" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Y tế</span>
+                        <h3>Bệnh Viện Hồng Ngọc</h3>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card pj-wide">
+                    <img src="images/hero_premium.png" alt="Nhà công nghiệp" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Công nghiệp</span>
+                        <h3>Nhà máy KCN Hoàng Gia</h3>
+                        <p>Mái lấy sáng polycarbonate cho nhà xưởng công nghiệp</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="stat-value" data-target="2014">0</div>
+                    <div class="stat-label">Năm thành lập</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="stat-value" data-target="63" data-suffix="+">0</div>
+                    <div class="stat-label">Tỉnh thành phân phối</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-weight-hanging"></i></div>
+                    <div class="stat-value" data-target="5000" data-suffix="+">0</div>
+                    <div class="stat-label">Tấn/năm sản xuất</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-flag"></i></div>
+                    <div class="stat-value" data-target="5">0</div>
+                    <div class="stat-label">Quốc gia xuất khẩu</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWS ===== -->
+    <section class="news" id="news">
+        <div class="container">
+            <div class="news-header reveal-up">
+                <div>
+                    <span class="section-tag"><i class="fas fa-newspaper"></i> TIN TỨC</span>
+                    <h2 class="section-heading">Tin tức <span class="gradient-text">mới nhất</span></h2>
+                </div>
+                <a href="#" class="btn-ghost-dark">Xem tất cả <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="news-grid reveal-up">
+                <article class="news-card news-main">
+                    <div class="news-img">
+                        <img src="images/hero_premium.png" alt="Tin tức" loading="lazy">
+                        <div class="news-date-badge">
+                            <span class="ndb-day">29</span>
+                            <span class="ndb-month">Th5</span>
+                        </div>
+                    </div>
+                    <div class="news-body">
+                        <span class="news-tag">Công nghiệp</span>
+                        <h3>Tiềm năng ứng dụng vật liệu nhựa kính Polycarbonate trong xây dựng nhà công nghiệp</h3>
+                        <p>Sản phẩm nhựa kính cường lực TOP ASIA được ứng dụng rộng rãi tại các Khu công nghiệp trên toàn quốc...</p>
+                        <a href="#" class="news-read-more">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <div class="news-side-list">
+                    <article class="news-card news-sm">
+                        <div class="news-img">
+                            <img src="images/project_vinhome.png" alt="Bể bơi Vinhome" loading="lazy">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-tag">Dự án</span>
+                            <h3>Bể bơi Vinhome – Mái che Polycarbonate cao cấp</h3>
+                            <span class="news-meta"><i class="far fa-clock"></i> 28 Th5, 2026</span>
+                        </div>
+                    </article>
+                    <article class="news-card news-sm">
+                        <div class="news-img">
+                            <img src="images/project_tower.png" alt="Startup Tower" loading="lazy">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-tag">Dự án</span>
+                            <h3>Startup Tower Hà Nội – Kính cường lực mặt tiền</h3>
+                            <span class="news-meta"><i class="far fa-clock"></i> 28 Th5, 2026</span>
+                        </div>
+                    </article>
+                    <article class="news-card news-sm">
+                        <div class="news-img">
+                            <img src="images/project_hospital.png" alt="Bệnh viện" loading="lazy">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-tag">Dự án</span>
+                            <h3>Bệnh Viện Hồng Ngọc – Canopy mái che hiện đại</h3>
+                            <span class="news-meta"><i class="far fa-clock"></i> 28 Th5, 2026</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== E-E-A-T: PR / BÁO CHÍ ===== -->
+    <section class="press-section" style="padding: 80px 0; background: var(--navy-800); border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+        <div class="container">
+            <h3 class="press-title" style="color: var(--gray-400); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 30px;">Báo chí nói về chất lượng của Top Asia</h3>
+            <div class="press-logos reveal-up" style="display: flex; justify-content: center; align-items: center; gap: 60px; flex-wrap: wrap; opacity: 0.5;">
+                <h4 style="color: var(--white); font-family: serif; font-size: 1.5rem; letter-spacing: -1px;">VnExpress</h4>
+                <h4 style="color: var(--white); font-family: 'Arial', sans-serif; font-size: 1.5rem; font-weight: 900;">Dân Trí</h4>
+                <h4 style="color: var(--white); font-family: 'Georgia', serif; font-size: 1.5rem; font-style: italic;">CafeF</h4>
+                <h4 style="color: var(--white); font-family: 'Arial', sans-serif; font-size: 1.5rem; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">Vietnamnet</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== E-E-A-T: REVIEWS ===== -->
+    <section class="reviews-section" style="padding: 120px 0; background: var(--navy); position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="section-center" style="margin-bottom: 60px; text-align: center;">
+                <span class="section-tag"><i class="fas fa-star" style="color: var(--gold);"></i> ĐÁNH GIÁ THỰC TẾ</span>
+                <h2 class="section-heading" style="color: var(--white);">Khách hàng <span class="gradient-text">tin tưởng</span></h2>
+                <p class="section-sub" style="color: var(--gray-400);">Giải pháp nhựa kính Polycarbonate của Top Asia đã thuyết phục hàng ngàn nhà thầu khó tính nhất.</p>
+            </div>
+            
+            <div class="reviews-grid reveal-up" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <!-- Review 1 -->
+                <div class="review-card glass-panel" style="padding: 40px; border-radius: 20px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); transition: transform 0.3s; cursor: default;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div class="stars" style="color: var(--gold); margin-bottom: 20px; font-size: 1.2rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="color: var(--gray-200); font-style: italic; margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">"Tấm Asia Lite thực sự giải quyết bài toán lấy sáng và chống nóng cho nhà xưởng của chúng tôi. Độ bền màu rất tốt dù thi công ngoài trời đã 3 năm."</p>
+                    <div class="reviewer" style="display: flex; align-items: center; gap: 15px;">
+                        <div class="avatar" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--blue-d)); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">TA</div>
+                        <div>
+                            <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 2px;">Trần Tuấn Anh</h4>
+                            <span style="color: var(--gray-400); font-size: 0.85rem;">Giám đốc Dự án - Vinaconex</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="review-card glass-panel" style="padding: 40px; border-radius: 20px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); transition: transform 0.3s; cursor: default;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div class="stars" style="color: var(--gold); margin-bottom: 20px; font-size: 1.2rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="color: var(--gray-200); font-style: italic; margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">"Tôi đánh giá cao chính sách bảo hành 10 năm của nhà máy. Hàng chuẩn ly, đủ zem, giao hàng đúng hẹn tới công trình tại Phú Quốc."</p>
+                    <div class="reviewer" style="display: flex; align-items: center; gap: 15px;">
+                        <div class="avatar" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--teal), var(--emerald)); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">LM</div>
+                        <div>
+                            <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 2px;">Lê Hoàng Minh</h4>
+                            <span style="color: var(--gray-400); font-size: 0.85rem;">Chủ thầu xây dựng khu Resort</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card glass-panel" style="padding: 40px; border-radius: 20px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); transition: transform 0.3s; cursor: default;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div class="stars" style="color: var(--gold); margin-bottom: 20px; font-size: 1.2rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="color: var(--gray-200); font-style: italic; margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">"Dòng Asia Pearl đáp ứng hoàn hảo tiêu chí thẩm mỹ của chủ đầu tư. Mái sảnh Canopy khi lắp tấm này cực kỳ sang trọng và hút sáng."</p>
+                    <div class="reviewer" style="display: flex; align-items: center; gap: 15px;">
+                        <div class="avatar" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--violet), var(--rose)); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">KT</div>
+                        <div>
+                            <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 2px;">Kiến trúc sư Thành</h4>
+                            <span style="color: var(--gray-400); font-size: 0.85rem;">Công ty Kiến trúc Xanh</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta" id="cta">
+        <div class="cta-bg-anim"></div>
+        <div class="container">
+            <div class="cta-content reveal-up">
+                <h2>Bạn cần <span class="gradient-text-gold">báo giá</span> sản phẩm?</h2>
+                <p>Liên hệ ngay để nhận báo giá trực tiếp từ nhà máy với mức giá tốt nhất thị trường!</p>
+                <div class="cta-actions">
+                    <a href="tel:0896699996" class="btn-glow">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Gọi ngay: 0896 699 996</span>
+                    </a>
+                    <a href="mailto:topasiaplastic@gmail.com" class="btn-ghost-light">
+                        <i class="fas fa-envelope"></i>
+                        <span>Gửi Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col fc-about">
+                        <a href="#" class="footer-logo">
+                            <img src="images/logo.png" alt="Top Asia Logo" class="logo-img footer-logo-img">
+                        </a>
+                        <p>Công ty Cổ phần Đầu tư và Sản xuất Top Asia – Nhà sản xuất tấm nhựa Polycarbonate cường lực hàng đầu Việt Nam.</p>
+                        <div class="footer-contacts">
+                            <div class="fc-item"><i class="fas fa-map-marker-alt"></i><span>LK65 - KĐT Dương Nội, P. Dương Nội, Q. Hà Đông, Hà Nội</span></div>
+                            <div class="fc-item"><i class="fas fa-industry"></i><span>Số 702 KCN Hoàng Gia, X. Mỹ Hạnh Nam, H. Đức Hòa, Long An</span></div>
+                            <div class="fc-item"><i class="fas fa-phone-alt"></i><a href="tel:0896699996">0896 699 996</a></div>
+                            <div class="fc-item"><i class="fas fa-envelope"></i><a href="mailto:topasiaplastic@gmail.com">topasiaplastic@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Điều hướng</h4>
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#about">Giới thiệu</a></li>
+                            <li><a href="#products">Sản phẩm</a></li>
+                            <li><a href="#projects">Dự án</a></li>
+                            <li><a href="#contact">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Chính sách</h4>
+                        <ul>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Chính sách bảo hành</a></li>
+                            <li><a href="#">Chính sách giao hàng</a></li>
+                            <li><a href="#">Điều khoản sử dụng</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Kết nối</h4>
+                        <div class="footer-socials">
+                            <a href="#" class="fs-link fb"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="fs-link yt"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="fs-link tt"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" class="fs-link zl"><i class="fas fa-comment-dots"></i></a>
+                        </div>
+                        <h4>Nhận tin mới</h4>
+                        <form class="footer-form" onsubmit="return false">
+                            <input type="email" placeholder="Email của bạn...">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2024 Top Asia Vietnam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="btt" id="btt" aria-label="Về đầu trang">
+        <svg viewBox="0 0 46 46"><circle cx="23" cy="23" r="21" fill="none" stroke="currentColor" stroke-width="2" class="btt-progress"/></svg>
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating -->
+    <div class="floating">
+        <a href="tel:0896699996" class="float-phone" aria-label="Gọi điện">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="#" class="float-zalo" aria-label="Zalo">
+            <span>Zalo</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
