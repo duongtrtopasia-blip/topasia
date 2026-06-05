@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | default(site.title) }}</title>
-    <meta name="description" content="{{ description | default(site.description) }}">
+    <title>Top Asia | Nhà Sản Xuất Polycarbonate #1 Việt Nam</title>
+    <meta name="description" content="Top Asia sản xuất, phân phối tấm nhựa Polycarbonate cường lực, mái lấy sáng chống UV chuẩn ISO. Báo giá trực tiếp từ nhà máy.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,11 +14,7 @@
     <!-- Netlify Identity Widget for CMS -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-    {% if customSchema %}
-    <script type="application/ld+json">
-    {{ customSchema | safe }}
-    </script>
-    {% endif %}
+    
 </head>
 <body>
     <!-- Cursor Glow -->
@@ -42,9 +38,9 @@
     <div class="top-bar" id="topBar">
         <div class="container">
             <div class="top-bar-left">
-                <span class="top-bar-item"><i class="fas fa-phone-alt"></i> <a href="tel:{{ site.phone | replace(' ', '') }}">{{ site.phone }}</a></span>
+                <span class="top-bar-item"><i class="fas fa-phone-alt"></i> <a href="tel:0896699996">0896 699 996</a></span>
                 <span class="top-bar-divider"></span>
-                <span class="top-bar-item"><i class="fas fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+                <span class="top-bar-item"><i class="fas fa-envelope"></i> <a href="mailto:topasiaplastic@gmail.com">topasiaplastic@gmail.com</a></span>
             </div>
             <div class="top-bar-right">
                 <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -89,7 +85,7 @@
             </nav>
 
             <div class="header-right">
-                <a href="tel:{{ site.phone | replace(' ', '') }}" class="header-cta">
+                <a href="tel:0896699996" class="header-cta">
                     <span class="cta-pulse"></span>
                     <i class="fas fa-phone-alt"></i>
                     <span class="cta-text">Báo giá ngay</span>
@@ -102,7 +98,97 @@
     </header>
 
     <main>
-        {{ content | safe }}
+        
+<!-- ===== PAGE HEADER ===== -->
+    <section class="page-header" style="padding: 120px 0 60px; background: var(--navy); color: white; position: relative; overflow: hidden; text-align: center;">
+        <div class="hero-bg" style="background-image:url('images/project_vinhome.png'); opacity: 0.2; position: absolute; inset: 0; background-size: cover; background-position: center; mix-blend-mode: overlay;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h1 class="hero-title" style="font-size: 3rem; margin-bottom: 16px;"><span class="gradient-text-gold">Dự Án</span></h1>
+            <p class="hero-desc" style="color: var(--gray-400); max-width: 600px; margin: 0 auto;">Các công trình tiêu biểu sử dụng sản phẩm Top Asia</p>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects-page" style="padding: 100px 0;">
+        <div class="container">
+            <div class="section-center reveal-up">
+                <span class="section-tag"><i class="fas fa-project-diagram"></i> DỰ ÁN THỰC TẾ</span>
+                <h2 class="section-heading">Công trình <span class="gradient-text">tiêu biểu</span></h2>
+                <p class="section-sub">Minh chứng cho chất lượng thi công kiên cố và chuẩn kỹ thuật của Top Asia</p>
+            </div>
+            
+            <div class="projects-masonry reveal-up" style="margin-top: 60px;">
+                <div class="pj-card pj-wide">
+                    <img src="images/project_vinhome.png" alt="Bể bơi Vinhome" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Khu dân cư</span>
+                        <h3>Bể bơi Vinhome</h3>
+                        <p>Lắp đặt tấm Polycarbonate mái che khu bể bơi cao cấp</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/project_vinhome.png" alt="Dự Án Vinhome" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Dân cư</span>
+                        <h3>Dự Án Vinhome</h3>
+                        <p>Ứng dụng tấm nhựa lấy sáng cao cấp</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/project_tower.png" alt="Startup Tower" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Tòa nhà</span>
+                        <h3>Startup Tower Hà Nội</h3>
+                        <p>Kính cường lực lấy sáng khu vực mặt tiền</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/project_hospital.png" alt="Bệnh viện" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Y tế</span>
+                        <h3>Bệnh Viện Hồng Ngọc</h3>
+                        <p>Canopy mái che sảnh đón khách hiện đại</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/hero_premium.png" alt="Công Trình Thủy Đường" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Dân dụng</span>
+                        <h3>Công Trình Thủy Đường</h3>
+                        <p>Thi công mái sảnh polycarbonate lấy sáng hoàn hảo</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card pj-wide">
+                    <img src="images/about_factory.png" alt="Sky City Towers" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Thương mại</span>
+                        <h3>Sky City Towers 88 Láng Hạ</h3>
+                        <p>Hệ thống mái che lấy sáng khu phức hợp thương mại</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="pj-card">
+                    <img src="images/product_showcase.png" alt="Bến Cảng Ao Tiên" loading="lazy">
+                    <div class="pj-overlay">
+                        <span class="pj-tag">Công cộng</span>
+                        <h3>Bến Cảng Ao Tiên</h3>
+                        <p>Mái vòm che nhà ga hành khách sang trọng</p>
+                        <a href="#" class="pj-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-center reveal-up" style="margin-top: 80px;">
+                <a href="#" class="btn-ghost-dark" style="display: inline-flex;">Tải Hồ Sơ Năng Lực <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
     </main>
 
     <!-- ===== FOOTER ===== -->
@@ -116,10 +202,10 @@
                         </a>
                         <p>Công ty Cổ phần Đầu tư và Sản xuất Top Asia – Nhà sản xuất tấm nhựa Polycarbonate cường lực hàng đầu Việt Nam.</p>
                         <div class="footer-contacts">
-                            <div class="fc-item"><i class="fas fa-map-marker-alt"></i><span>{{ site.address }}</span></div>
-                            <div class="fc-item"><i class="fas fa-industry"></i><span>{{ site.factory }}</span></div>
-                            <div class="fc-item"><i class="fas fa-phone-alt"></i><a href="tel:{{ site.phone | replace(' ', '') }}">{{ site.phone }}</a></div>
-                            <div class="fc-item"><i class="fas fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+                            <div class="fc-item"><i class="fas fa-map-marker-alt"></i><span>LK65 - KĐT Dương Nội, P. Dương Nội, Q. Hà Đông, Hà Nội</span></div>
+                            <div class="fc-item"><i class="fas fa-industry"></i><span>Số 702 KCN Hoàng Gia, X. Mỹ Hạnh Nam, H. Đức Hòa, Long An</span></div>
+                            <div class="fc-item"><i class="fas fa-phone-alt"></i><a href="tel:0896699996">0896 699 996</a></div>
+                            <div class="fc-item"><i class="fas fa-envelope"></i><a href="mailto:topasiaplastic@gmail.com">topasiaplastic@gmail.com</a></div>
                         </div>
                     </div>
                     <div class="footer-col">
@@ -144,10 +230,10 @@
                     <div class="footer-col">
                         <h4>Kết nối</h4>
                         <div class="footer-socials">
-                            <a href="{{ site.facebook }}" class="fs-link fb"><i class="fab fa-facebook-f"></i></a>
-                            <a href="{{ site.youtube }}" class="fs-link yt"><i class="fab fa-youtube"></i></a>
-                            <a href="{{ site.tiktok }}" class="fs-link tt"><i class="fab fa-tiktok"></i></a>
-                            <a href="{{ site.zalo }}" class="fs-link zl"><i class="fas fa-comment-dots"></i></a>
+                            <a href="#" class="fs-link fb"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="fs-link yt"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="fs-link tt"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" class="fs-link zl"><i class="fas fa-comment-dots"></i></a>
                         </div>
                         <h4>Nhận tin mới</h4>
                         <form class="footer-form" onsubmit="return false">
@@ -173,10 +259,10 @@
 
     <!-- Floating -->
     <div class="floating">
-        <a href="tel:{{ site.phone | replace(' ', '') }}" class="float-phone" aria-label="Gọi điện">
+        <a href="tel:0896699996" class="float-phone" aria-label="Gọi điện">
             <i class="fas fa-phone-alt"></i>
         </a>
-        <a href="{{ site.zalo }}" class="float-zalo" aria-label="Zalo">
+        <a href="#" class="float-zalo" aria-label="Zalo">
             <span>Zalo</span>
         </a>
     </div>
